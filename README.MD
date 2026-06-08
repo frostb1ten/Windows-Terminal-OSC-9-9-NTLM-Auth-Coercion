@@ -2,7 +2,7 @@ Was playing with terminal escape sequences and found a neat Windows Terminal beh
 
 Windows Terminal supports `OSC 9;9`, which lets terminal output update the current working directory state. If that state is set to a UNC path, then later opening a split pane or duplicate tab can make Windows try to access that UNC path.
 
-That can trigger outbound SMB/WebDAV traffic and NTLM authentication.
+That can trigger outbound SMB/WebDAV traffic and NTLM authentication. I had AI write up a quick `ssh_server.py` that hosts a honeypot SSH server.
 
 ## The Trick
 
