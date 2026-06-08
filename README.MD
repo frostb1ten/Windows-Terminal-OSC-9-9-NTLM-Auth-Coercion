@@ -65,6 +65,7 @@ Example:
 
 ```text
 frost pts/1 2026-04-30 11:09
+victim pts/2 2026-04-30 12:00
 ```
 
 From another terminal that can write to that TTY:
