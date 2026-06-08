@@ -17,8 +17,10 @@ The UNC path does not visibly print in the victim terminal.
 Later, if the victim uses one of these normal Windows Terminal actions:
 
 ```text
-Alt+Shift+D   split pane
+Alt+Shift+D   split tab
 Ctrl+Shift+D  duplicate tab
+Hit the Duplicate Tab window
+Hit the Split tab
 ```
 
 Windows Terminal may reuse the attacker-controlled working directory.
